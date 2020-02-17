@@ -27,7 +27,7 @@
 
         <div class="row">
             <div class="col-sm-6 list-group">
-                <a href="#" class="btn btn-block btn-outline-secondary">Создать категорию</a>
+                <a href="{{ route('admin.category.create') }}" class="btn btn-block btn-outline-secondary">Создать категорию</a>
                 <a href="" class="list-group-item list-group-item-action">
                     <h4 class="list-group-item-heading">Категория первая</h4>
                     <p class="list-group-item-text">Кол-во материалов</p>
